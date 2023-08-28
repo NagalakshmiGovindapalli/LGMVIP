@@ -1,0 +1,32 @@
+
+
+.container{
+    background-color: #ccfdeb;
+    margin-top:20px;
+}
+.heading{
+    font-size:30px;
+    margin-top:10px;
+    text-align: center;
+}
+
+.name-heading{
+    font-size:20px;
+}
+.enroll-container{
+    background-color: bisque;
+    border-radius: 20px;
+    padding:20px;
+    margin:20px;
+}
+
+.imgContainer{
+    padding:20px;
+    margin:20px;
+
+}
+.image{
+    height:100px;
+    width:100px;
+    
+}

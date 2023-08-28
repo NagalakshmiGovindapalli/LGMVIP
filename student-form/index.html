@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">   
+           <h1 class="heading">Registration Form</h1>
+
+           <form>
+            
+            <div id="namediv">
+               <label for="name"> Name:</label>
+                <input class="form-control" id="name" type="text" placeholder="Enter name........">
+            </div>
+            <div id="agediv">
+                <label for="age">
+                Age:
+                </label>
+                 <input  class="form-control" id="age" type="text" placeholder="Enter age......">
+            </div>
+            <div id="emaildiv">
+                <label for="email">
+                Email:</label> <input class="form-control"  id="email" type="text" placeholder="Enter email.....">
+            </div>
+            <div id="citydiv">
+                <label for="city">
+                City:
+                </label> <input class="form-control" id="city" type="text" placeholder="Enter city......">
+            </div>
+            <div id="phonediv">
+                <label for="phone">
+                Phone:</label> <input  class="form-control" id="phone" type="text"
+                 placeholder="Enter Phone number........" />
+                </div>
+            <div>
+            <button type="submit"  onclick="display()" class="btn btn-primary m-3" id="entry">Submit</button>
+            </div>
+
+    </form>
+    </div>
+           <div class="col-12 col-md-6" id="enroll">
+               <h3 class="heading">Enrolled students
+                <div id="enroll">
+                
+                        
+                </div>
+          </div>
+    </div>
+    </div>
+    <script src="student-form.js"></script>
+</body>
+</html>
